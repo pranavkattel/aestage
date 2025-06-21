@@ -1,0 +1,263 @@
+{
+  "designSystem": {
+    "name": "Modern Hair Salon Website",
+    "version": "1.0.0",
+    "description": "A sophisticated, dark-themed design system for professional hair salon websites featuring asymmetric layouts and premium imagery presentation"
+  },
+  
+  "colorPalette": {
+    "primary": {
+      "background": "#2a2a2a",
+      "backgroundAlt": "#1a1a1a",
+      "surface": "#3a3a3a"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#cccccc",
+      "muted": "#999999"
+    },
+    "accent": {
+      "warm": "#d4a574",
+      "copper": "#c67e3b"
+    }
+  },
+  
+  "typography": {
+    "fontFamilies": {
+      "primary": "Modern sans-serif (Helvetica Neue, Arial, sans-serif)",
+      "heading": "Light weight sans-serif"
+    },
+    "scale": {
+      "h1": {
+        "fontSize": "3.5rem",
+        "fontWeight": 200,
+        "letterSpacing": "0.02em",
+        "lineHeight": 1.1
+      },
+      "h2": {
+        "fontSize": "2.5rem",
+        "fontWeight": 300,
+        "letterSpacing": "0.01em",
+        "lineHeight": 1.2
+      },
+      "body": {
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "lineHeight": 1.6,
+        "letterSpacing": "0.01em"
+      },
+      "caption": {
+        "fontSize": "0.875rem",
+        "fontWeight": 300,
+        "letterSpacing": "0.02em"
+      }
+    },
+    "characteristics": {
+      "style": "Minimalist and clean",
+      "emphasis": "Ultra-light to light font weights",
+      "spacing": "Generous letter spacing for elegance"
+    }
+  },
+  
+  "layout": {
+    "principles": {
+      "asymmetry": "Embraces asymmetric compositions for visual interest",
+      "whitespace": "Abundant negative space for breathing room",
+      "hierarchy": "Clear visual hierarchy through size and positioning"
+    },
+    "grid": {
+      "type": "Flexible grid system",
+      "breakpoints": {
+        "mobile": "320px",
+        "tablet": "768px",
+        "desktop": "1024px",
+        "large": "1440px"
+      },
+      "containers": {
+        "maxWidth": "1200px",
+        "padding": "2rem",
+        "mobilePadding": "1rem"
+      }
+    },
+    "sections": {
+      "spacing": {
+        "vertical": "6rem to 8rem",
+        "mobileVertical": "3rem to 4rem"
+      },
+      "structure": "Full-width sections with contained content"
+    }
+  },
+  
+  "imageSystem": {
+    "presentation": {
+      "style": "High-quality professional photography",
+      "treatment": "Natural lighting, authentic moments",
+      "composition": "Mix of close-ups and wider shots"
+    },
+    "layout": {
+      "asymmetricGrids": {
+        "description": "Images positioned in non-uniform, artistic arrangements",
+        "characteristics": [
+          "Overlapping elements",
+          "Varied sizes and positions",
+          "Dynamic visual flow"
+        ]
+      },
+      "aspectRatios": {
+        "hero": "16:9 or 3:2",
+        "gallery": "Mixed ratios for visual interest",
+        "portraits": "4:5 or 3:4"
+      }
+    },
+    "gallery": {
+      "type": "Horizontal scrolling showcase",
+      "itemSpacing": "1rem",
+      "borderRadius": "8px",
+      "aspectRatio": "4:5"
+    }
+  },
+  
+  "components": {
+    "heroSection": {
+      "structure": "Full-width with asymmetric content placement",
+      "textPlacement": "Left-aligned or offset positioning",
+      "imageIntegration": "Large hero image with text overlay or adjacent",
+      "height": "80vh to 100vh"
+    },
+    
+    "serviceBlocks": {
+      "layout": "Asymmetric two-column or mixed layouts",
+      "imagePosition": "Alternating left/right or creative positioning",
+      "textAlignment": "Left-aligned blocks",
+      "spacing": "Large margins between sections"
+    },
+    
+    "teamSection": {
+      "imageLayout": "Asymmetric grid of professional portraits",
+      "imageStyle": "Natural, candid professional shots",
+      "arrangement": "Staggered or mosaic-style positioning"
+    },
+    
+    "galleryShowcase": {
+      "type": "Horizontal scrolling carousel",
+      "itemSize": "Consistent height, varied widths",
+      "navigation": "Subtle or hidden controls",
+      "spacing": "Consistent gaps between items"
+    },
+    
+    "contactSection": {
+      "style": "Minimal with clear call-to-action",
+      "placement": "Centered or prominently positioned",
+      "integration": "Seamlessly integrated with overall design"
+    }
+  },
+  
+  "spacing": {
+    "scale": {
+      "xs": "0.25rem",
+      "sm": "0.5rem",
+      "md": "1rem",
+      "lg": "2rem",
+      "xl": "4rem",
+      "2xl": "6rem",
+      "3xl": "8rem"
+    },
+    "sectionSpacing": {
+      "default": "6rem",
+      "large": "8rem",
+      "mobile": "3rem"
+    }
+  },
+  
+  "visualEffects": {
+    "shadows": {
+      "subtle": "0 4px 20px rgba(0, 0, 0, 0.1)",
+      "medium": "0 8px 30px rgba(0, 0, 0, 0.15)"
+    },
+    "borderRadius": {
+      "small": "4px",
+      "medium": "8px",
+      "large": "16px"
+    },
+    "transitions": {
+      "standard": "all 0.3s ease",
+      "slow": "all 0.5s ease"
+    }
+  },
+  
+  "designPatterns": {
+    "asymmetricComposition": {
+      "description": "Content positioned off-center for visual interest",
+      "application": "Text blocks, image placement, section layouts"
+    },
+    "overlappingElements": {
+      "description": "Images and content that subtly overlap",
+      "zIndex": "Careful layering for depth"
+    },
+    "minimalistApproach": {
+      "description": "Clean, uncluttered interfaces",
+      "emphasis": "Focus on content and imagery"
+    },
+    "premiumAesthetic": {
+      "description": "High-end, sophisticated visual treatment",
+      "characteristics": [
+        "Quality typography",
+        "Professional photography",
+        "Refined color palette",
+        "Generous whitespace"
+      ]
+    }
+  },
+  
+  "contentStrategy": {
+    "headingStyle": {
+      "approach": "Concise, impactful statements",
+      "tone": "Professional yet approachable",
+      "length": "2-6 words for main headings"
+    },
+    "bodyText": {
+      "style": "Clear, informative descriptions",
+      "length": "Concise paragraphs, 2-4 sentences",
+      "focus": "Benefits and quality emphasis"
+    },
+    "imageContent": {
+      "style": "Professional hair styling process and results",
+      "variety": "Mix of before/during/after shots",
+      "quality": "High-resolution, well-lit photography"
+    }
+  },
+  
+  "responsiveStrategy": {
+    "mobile": {
+      "layout": "Single column, stacked elements",
+      "spacing": "Reduced vertical spacing",
+      "images": "Full-width, maintaining aspect ratios"
+    },
+    "tablet": {
+      "layout": "Simplified two-column where appropriate",
+      "navigation": "Adapted for touch interaction"
+    },
+    "desktop": {
+      "layout": "Full asymmetric layouts",
+      "spacing": "Maximum vertical spacing",
+      "effects": "All hover and interactive states"
+    }
+  },
+  
+  "technicalImplementation": {
+    "frameworks": {
+      "recommended": ["React", "Vue", "Vanilla HTML/CSS"],
+      "css": "CSS Grid and Flexbox for layouts"
+    },
+    "performance": {
+      "images": "Optimized WebP format with fallbacks",
+      "loading": "Lazy loading for gallery images",
+      "animations": "CSS transforms for smooth interactions"
+    },
+    "accessibility": {
+      "contrast": "WCAG AA compliant",
+      "navigation": "Keyboard accessible",
+      "images": "Descriptive alt text for all imagery"
+    }
+  }
+}
